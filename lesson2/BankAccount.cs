@@ -33,6 +33,5 @@ namespace lesson2
             _balance = balance;
             _type = type;
         }
-
     }
 }
