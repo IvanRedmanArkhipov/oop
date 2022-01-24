@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,7 +21,7 @@ namespace lesson2
         {
             get { return _balance; }
         }
-        
+
         public string Type
         {
             get { return _type; }
@@ -33,17 +33,6 @@ namespace lesson2
             _balance = balance;
             _type = type;
         }
-        public new void ToString() 
-        {
-            Console.WriteLine($"{_accountNum} {_balance} {_type}");
-        }
-        public static bool operator ==(BankAccount account1, BankAccount account2)
-        {
-            return account1.Equals(account2);
-        }
-        public static bool operator !=(BankAccount account1, BankAccount account2)
-        {
-            return !account1.Equals(account2);
-        }
+
     }
 }
