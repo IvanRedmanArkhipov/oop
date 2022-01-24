@@ -11,7 +11,6 @@ namespace lesson7
         public string Encode(string shifr)
         {
             char[] chars = shifr.ToCharArray();
-            // дешифрование (понятия не имею как сделать)
             for (int i = 0; i < chars.Length; i++)
             {
                 if (char.IsLetter(chars[i]))
@@ -30,7 +29,6 @@ namespace lesson7
         public string Decode(string shifr)
         {
             char[] chars = shifr.ToCharArray();
-            // дешифрование (понятия не имею как сделать)
             for (int i = 0; i < chars.Length; i++)
             {
                 if (char.IsLetter(chars[i]))
